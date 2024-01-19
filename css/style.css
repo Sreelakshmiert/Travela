@@ -1,0 +1,208 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.left{
+    
+    align-items: center;
+    background-color: white;
+    width: 55%;
+    padding-left: 50px;
+    
+    
+}
+
+.right{
+    background-color: darkgrey;
+    width: 45%;
+    color:white;
+    padding-left: 300px ;
+    padding-top: 40px;
+    align-items: center;
+}
+nav{
+    display:flex;
+
+}
+
+
+
+.header{
+    display: flex;
+}
+ul {
+    list-style: none;
+    
+}
+nav ul li{
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-right: 20px;
+
+  display: inline;
+}
+.header h2 {
+    padding: 20px 20px 20px 20px;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display:flex;
+
+}
+
+.firstpage{
+    display:flex;
+    
+    height: 750px;
+}
+.header{
+    display: flex;
+}
+ul {
+    list-style: none;
+    margin-top: 40px;
+    
+}
+nav ul li{
+    padding-top: 20px;
+    
+    padding-right: 25px;
+
+  display: inline;
+  
+}
+.header h2 {
+    padding: 20px 20px 20px 20px;
+    
+}
+#logo{
+    width : 150px;
+    height : 40px;
+    margin-top : 30px ;
+    margin-right: 50px;
+}
+#heading{
+  margin-top: 140px;
+  
+  max-width: 550px;
+  font-size: 60px;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#des{
+    
+    max-width: 500px;
+    
+    margin-bottom: 30px;
+}
+.symbols{
+    display: flex;
+    font-size: 25px;
+    justify-content: space-between;
+    max-width: 300px;
+    color: gray;
+    margin-bottom: 30px;
+
+}
+.symbols div{
+    display: flex;
+}
+
+.symbols p{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.right button{
+ background-color: rgb(201, 135, 29);
+ color:white;
+ padding: 10px 20px 10px 20px;
+ border: none;
+ border-radius: 5px;
+ margin-left: 20px;
+}
+.night{
+    display: flex;
+    
+}
+#price{
+    font-size: 45px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin-top: 15px;
+     color:black
+}
+.night p{
+    margin-top: 45px;
+    font-size: 10px;
+    color: rgb(158, 154, 154);
+}
+.secondpage{
+    display: flex;
+    margin-top: 100px;
+    height: 550px;
+}
+.secondpage h2{
+    max-width: 600px;
+    font-size: 35px;
+    padding : 90px 50px 30px 90px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.secondpage p{
+    padding-left: 90px;
+   padding-bottom: 90px;
+    max-width: 600px;
+    
+}
+.thirdpage {
+
+    margin-top: 100px;
+    margin-left: 50px;
+    height:450px;
+}
+.Heading2{
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 25px;
+}
+.thirdpage p{
+    max-width: 500px;
+    color: dimgrey;
+    margin-bottom: 60px;
+}
+#facility{
+    display: flex;
+    justify-content: space-between;
+    max-width: 75%;
+}
+
+.faciltyGroup div {
+ display: flex;
+ font-size: 20px;
+ height: 50px;
+ 
+}
+.faciltyGroup div p{
+    padding-left: 20px;
+  
+   
+}
+.faciltyGroup div i{
+    padding-top:5px;
+}

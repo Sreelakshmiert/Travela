@@ -8,20 +8,23 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <link rel="stylesheet" href="css\style.css">
+    <script>
+        src="js\main.js";
+    </script>
 </head>
 
 <body>
     <main>
 
 
-        <div class="firstpage">
+        <div id="firstpage">
 
 
             <div class="left">
                 <div class="header">
 
 
-                    <img src="img\F-0cCM_bEAADC6_.png" alt="" id="logo">
+                    <img src="img\F-0cCM_bEAADC6_.png" alt="" class="logo">
                     <nav>
                         <ul>
                             <li>Home</li>
@@ -52,8 +55,8 @@
                     </div>
                     <p>Start From</p>
                     <div class="night">
-                        <p id="price">$39</p>
-                        <p>/Night</p>
+                        <p class="price">$39</p>
+                        <p id="Night">/Night</p>
                     </div>
                 </div>
 
@@ -62,101 +65,383 @@
 
             <div class="right">
                 <i class='bx bx-search'></i>
-                <button>Booiking Room</button>
+                <button class="Booking">Booiking Room </button>
             </div>
 
 
         </div>
 
-    <div class = secondpage>
-        <div class= "right" >
-            <img src="" alt="">
-        </div>
-        <div clas="left" >
-            <h2>About President Luxury 
-                Double Room View NY City</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit 
-                    sed pretium, egestas sed sit. Fames tincidunt rhoncus viverra eu ut 
-                    scelerisque. Erat orci scelerisque adipiscing potenti sollicitudin 
-                    semper aliquam in ultricies. Sem vitae amet, egestas aliquam mi a 
+        <div id=secondpage>
+            <div class="right">
+                <!-- <img src="img\Room2.jpg" alt=""> -->
+            </div>
+            <div clas="left">
+                <h2>About President Luxury
+                    Double Room View NY City</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit
+                    sed pretium, egestas sed sit. Fames tincidunt rhoncus viverra eu ut
+                    scelerisque. Erat orci scelerisque adipiscing potenti sollicitudin
+                    semper aliquam in ultricies. Sem vitae amet, egestas aliquam mi a
                     arcu.
-                    Purus diam est vitae faucibus enim. Ultricies nunc vel magnis 
-                    massa odio. Sed dictumst condimentum sit quis Lorem ipsum dolor 
-                    sit egestas sed sit. Fames tincidunt rhoncus viverra eu ut sce 
-                    scelerisque adipiscing potenti in ultricies. Sem vitae amet, egestas 
-                    aliquam mi a arcu. Feugiat at dignissim massa ornare. Platea eu 
-                    orci enim est egestas fusce cras. 
-                    Purus diam est vitae faucibus enim. Ultricies nunc vel magnis 
-                    gravida quis sodales. Lacus, elit pellentesque massa odio. Sed 
+                    Purus diam est vitae faucibus enim. Ultricies nunc vel magnis
+                    massa odio. Sed dictumst condimentum sit quis Lorem ipsum dolor
+                    sit egestas sed sit. Fames tincidunt rhoncus viverra eu ut sce
+                    scelerisque adipiscing potenti in ultricies. Sem vitae amet, egestas
+                    aliquam mi a arcu. Feugiat at dignissim massa ornare. Platea eu
+                    orci enim est egestas fusce cras.
+                    Purus diam est vitae faucibus enim. Ultricies nunc vel magnis
+                    gravida quis sodales. Lacus, elit pellentesque massa odio. Sed
                     dictumst condimentum sit quis</p>
-          
-         
-        </div>
-        
-    </div>
-
-    <div class ="thirdpage">
-        <h2 class ="Heading2">Hotels Facilities</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit 
-            sed pretium, egestas sed sit</p>
-      <div id = facility>
-        <div class = "faciltyGroup">
-           <div >
-            <i class='bx bx-money-withdraw'></i>
-            <p>Insurance</p>
-           </div>
-           <div>
-            <i class='bx bx-wifi'></i>
-            <p>Wifi</p>
-           </div>
-           <div>
-            <i class='bx bx-desktop'></i>
-            <p>24 houres front desk</p>
-           </div>
-           <div>
-            <i class='bx bxl-tailwind-css'></i>
-            <p>AC</p>
-           </div>
-        </div>
-        <div class = "faciltyGroup">
-            <div>
-                <i class='bx bxs-leaf'></i>
-                <p>Cleaning services</p>
-            </div>
-            <div>
-                <i class='bx bxs-parking'></i>
-                <p>Parking Area</p>
-            </div>
-            <div>
-                <i class='bx bx-spa'></i>
-                <p>Spa</p>
-            </div>
-            <div>
-                <i class='bx bx-accessibility'></i>
-                <p>Wheelchair access</p>
             </div>
 
         </div>
-        <div class = "faciltyGroup">
-            <div>
-                <i class='bx bx-swim'></i>
-                <p>Swmming Pool</p>
-            </div>
-            <div>
-                <i class='bx bx-restaurant'></i>
-                <p>Restaurent</p>
-            </div>
-            <div>
-                <i class='bx bx-buildings'></i>
-                <p>Elevator</p>
-            </div>
-            <div>
-                <i class='bx bxs-group'></i>
-                <p>Meeting Facilities</p>
+
+        <div id="thirdpage">
+            <h2 class="Heading2">Hotels Facilities</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit
+                sed pretium, egestas sed sit</p>
+            <div id=facility>
+                <div class="faciltyGroup">
+                    <div>
+                        <i class='bx bx-money-withdraw'></i>
+                        <p>Insurance</p>
+                    </div>
+                    <div>
+                        <i class='bx bx-wifi'></i>
+                        <p>Wifi</p>
+                    </div>
+                    <div>
+                        <i class='bx bx-desktop'></i>
+                        <p>24 houres front desk</p>
+                    </div>
+                    <div>
+                        <i class='bx bxl-tailwind-css'></i>
+                        <p>AC</p>
+                    </div>
+                </div>
+                <div class="faciltyGroup">
+                    <div>
+                        <i class='bx bxs-leaf'></i>
+                        <p>Cleaning services</p>
+                    </div>
+                    <div>
+                        <i class='bx bxs-parking'></i>
+                        <p>Parking Area</p>
+                    </div>
+                    <div>
+                        <i class='bx bx-spa'></i>
+                        <p>Spa</p>
+                    </div>
+                    <div>
+                        <i class='bx bx-accessibility'></i>
+                        <p>Wheelchair access</p>
+                    </div>
+
+                </div>
+                <div class="faciltyGroup">
+                    <div>
+                        <i class='bx bx-swim'></i>
+                        <p>Swmming Pool</p>
+                    </div>
+                    <div>
+                        <i class='bx bx-restaurant'></i>
+                        <p>Restaurent</p>
+                    </div>
+                    <div>
+                        <i class='bx bx-buildings'></i>
+                        <p>Elevator</p>
+                    </div>
+                    <div>
+                        <i class='bx bxs-group'></i>
+                        <p>Meeting Facilities</p>
+                    </div>
+                </div>
             </div>
         </div>
-      </div>
-    </div>
+
+        <div id="fourthpage">
+            <div id="header">
+                <div>
+                    <h2 class="Heading2">Room Gallery</h2>
+                </div>
+                <div>
+                    <button class="Booking">&lt;</button>
+                    <button class="onclick">&gt;</button>
+                </div>
+            </div>
+            <div id="gallery">
+                <div>
+                    <span>
+                        <img src="Room1.jpeg" alt="">
+                    </span>
+                    <span><img src="img\Room2.jpg" alt=""></span>
+                    <span>
+                        <img src="Room1.jpeg" alt="">
+                    </span>
+                    <span><img src="img\Room2.jpg" alt=""></span>
+                </div>
+
+            </div>
+        </div>
+        <div id="fifthpage">
+
+        </div>
+        <div id="sixthpage">
+            <div>
+                <h2 class="Heading2">Additional Information</h2>
+            </div>
+            <div id="sixthcontent">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit
+                        sed pretium, egestas sed sit. Fames tincidunt rhoncus viverra eu ut
+                        scelerisque. Erat orci scelerisque adipiscing potenti sollicitudin
+                        semper aliquam in ultricies. Sem vitae amet, egestas aliquam mi a
+                        arcu.
+                        Purus diam est vitae faucibus enim. Ultricies nunc vel magnis
+                        massa odio. Sed dictumst condimentum sit quis Lorem ipsum dolor
+                        sit egestas sed sit. Fames tincidunt rhoncus viverra eu ut sce
+                        scelerisque adipiscing potenti in ultricies. Sem vitae amet, egestas
+                        aliquam mi a arcu. Feugiat at dignissim massa ornare. Platea eu
+                        orci enim est egestas fusce cras.</p>
+                    <p class="check">Check in 15:00 23:59</p>
+                    <p class="check">Check Out 12:00</p>
+                </div>
+                <div>
+                    <button class="accordion">
+                        <p>What is the address of Best Western Hotel</p>
+                        <i class='bx bxs-chevron-down dropdown'></i>
+                    </button>
+                    <div class="panel">
+                        <p>Lorem ipsum...</p>
+                    </div>
+
+                    <button class="accordion">
+                        <p>What are the facilities available in Best Western Hotel?</p>
+                        <i class='bx bxs-chevron-down dropdown'></i>
+                    </button>
+                    <div class="panel">
+                        <p>Lorem ipsum...</p>
+                    </div>
+
+                    <button class="accordion">
+                        <p>Does Best Western have a swimming pool?</p>
+                        <i class='bx bxs-chevron-down dropdown'></i>
+                    </button>
+                    <div class="panel">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                    <button class="accordion">
+                        <p>Items that are not allowed</p>
+                        <i class='bx bxs-chevron-down dropdown'></i>
+                    </button>
+                    <div class="panel">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                    <button class="accordion">
+                        <p>Does Best Western have a swimming pool?</p>
+                        <i class='bx bxs-chevron-down dropdown'></i>
+                    </button>
+                    <div class="panel">
+                        <p>Lorem ipsum...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="seventhpage">
+            <h2 class="Heading2">Room Availability</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit
+                sed pretium, egestas sed sit</p>
+            <div id="availability">
+                <div id="box1">
+                    <h3>Check date</h3>
+                    <hr>
+                    <form>
+                        <label >Enter date:</label>
+                        <input type="date" >
+                        
+                    </form>
+                </div>
+                <div id="box2">
+
+                    <div id="date">
+                        <p id="select">Selected date : </p>
+                        <p>23/01/2024</p>
+                    </div>
+                    <hr>
+                    <h4>President Luxury Double
+                        Room View NY City </h4>
+                    <div class="roomleft">
+                        <p class="start">Room left</p>
+                        <p id="roomNo">52 Room left</p>
+                    </div>
+                    <div class="roomleft">
+                        <p class="start">Start From</p>
+                        <div class="night">
+                            <p class="price">$52</p>
+                            <p id="Night">/Night</p>
+                        </div>
+                    </div>
+                    <button class="Booking">Booiking Now </button>
+                </div>
+            </div>
+        </div>
+        <div id="eighthpage">
+            <h2 class="Heading2">Similar Rooms</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit
+                sed pretium, egestas sed sit.</p>
+            <div id="SimilarRooms">
+                <div class="box3">
+                    <div class="image">
+                      <img src="img\Room2.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <h3>Deluxe Double with New York
+                            City View</h3>
+                        <div class="symbols">
+                            <div>
+
+                                <i class='bx bx-male-female'></i>
+                                <p> 2 Guest</p>
+                            </div>
+                            <div>
+                                <i class='bx bxs-bed'></i>
+                                <p>2 Bed</p>
+                            </div>
+                            <div>
+                                <i class='bx bxs-shower'></i>
+                                <p>1 Bathroom</p>
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <button class="Booking">Learn More</button>
+                            <div class="roomleft">
+                                <p class="start">Start From</p>
+                                <div class="night">
+                                    <p class="price">$59</p>
+                                    <p id="Night">/Night</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="image">
+                        <img src="Room1.jpeg " alt="">
+                    </div>
+                    <div class="details">
+                        <h3>Deluxe Double with New York
+                            City View</h3>
+                        <div class="symbols">
+                            <div>
+
+                                <i class='bx bx-male-female'></i>
+                                <p> 2 Guest</p>
+                            </div>
+                            <div>
+                                <i class='bx bxs-bed'></i>
+                                <p>2 Bed</p>
+                            </div>
+                            <div>
+                                <i class='bx bxs-shower'></i>
+                                <p>1 Bathroom</p>
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <button class="Booking">Learn More</button>
+                            <div class="roomleft">
+                                <p class="start">Start From</p>
+                                <div class="night">
+                                    <p class="price">$59</p>
+                                    <p id="Night">/Night</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box3">
+                    <div class="image"> 
+                        <img src="img\Room2.jpg" alt="">
+                    </div>
+                    <div class="details">
+                        <h3>Deluxe Double with New York
+                            City View</h3>
+                        <div class="symbols">
+                            <div>
+
+                                <i class='bx bx-male-female'></i>
+                                <p> 2 Guest</p>
+                            </div>
+                            <div>
+                                <i class='bx bxs-bed'></i>
+                                <p>2 Bed</p>
+                            </div>
+                            <div>
+                                <i class='bx bxs-shower'></i>
+                                <p>1 Bathroom</p>
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <button class="Booking">Learn More</button>
+                            <div class="roomleft">
+                                <p class="start">Start From</p>
+                                <div class="night">
+                                    <p class="price">$59</p>
+                                    <p id="Night">/Night</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div id="Footer">
+            <div id="one">
+                <h2>If you have any question, Let us help you!</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. </p>
+                <div>
+                 <input type="text" placeholder="Enter your Email here">
+                    <button class="Booking"><i class='bx bxs-send'></i></button>
+                </div>
+                <p>Copyright Tanah Air Studi</p>
+            </div>
+            <div id="two">
+                <img src="img\WHITELOGO.png" alt="" class="logo">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus consequatur, iste quod </p>
+                    <div id="links">
+                <div>
+                    <a href="#">Home</a>
+                    <a href="#">Room&Suits</a>
+                    <a href="#">Packages</a>
+                    <a href="#">Voucher</a>
+                    <div> <a href="#">Promo</a></div>
+                </div>
+                <div>
+                    <a href="#">About us</a>
+                    
+                    <a href="#">Restaurent & Bar</a>
+                    <a href="#">Events</a>
+                    <a href="#">Gallery</a>
+                    
+                    
+                    
+                </div>
+                <div>
+                    <a href="#">Our team</a>
+                    <a href="#">Blogs</a>
+                    
+                    <a href="#">Contact Us</a>
+                    <a href="#">Careers</a>
+                    
+                </div>
+               
+               
+            </div>
+            
+        </div>
+
     </main>
 </body>
 

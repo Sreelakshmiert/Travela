@@ -1,117 +1,115 @@
-*{
+* {
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: white;
 }
-main{
+
+main {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+
 }
-.left{
-    
+
+.left {
+
     align-items: center;
     background-color: white;
     width: 55%;
     padding-left: 50px;
-    
-    
+
+
 }
 
-.right{
+.right {
     background-color: darkgrey;
+    
     width: 45%;
-    color:white;
-    padding-left: 300px ;
+    color: white;
+    padding-left: 300px;
     padding-top: 40px;
     align-items: center;
-}
-nav{
-    display:flex;
+    
 
 }
+#firstpage .right {
+    background-image: url('Room1.jpeg');
+    background-size: cover;
+}
 
+nav {
+    display: flex;
 
+}
 
-.header{
+.header {
     display: flex;
 }
-ul {
-    list-style: none;
-    
-}
-nav ul li{
-    padding-top: 20px;
-    padding-right: 40px;
-    padding-right: 20px;
 
-  display: inline;
-}
 .header h2 {
     padding: 20px 20px 20px 20px;
 }
 
-*{
+* {
 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-nav{
-    display:flex;
+#firstpage {
+    display: flex;
 
-}
-
-.firstpage{
-    display:flex;
-    
     height: 750px;
 }
-.header{
-    display: flex;
-}
+
 ul {
     list-style: none;
     margin-top: 40px;
-    
+
 }
-nav ul li{
+
+nav ul li {
     padding-top: 20px;
-    
+
     padding-right: 25px;
 
-  display: inline;
-  
+    display: inline;
+
 }
+
 .header h2 {
     padding: 20px 20px 20px 20px;
-    
+
 }
-#logo{
-    width : 150px;
-    height : 40px;
-    margin-top : 30px ;
+
+.logo {
+    width: 150px;
+    height: 40px;
+    margin-top: 30px;
     margin-right: 50px;
 }
-#heading{
-  margin-top: 140px;
-  
-  max-width: 550px;
-  font-size: 60px;
-  margin-bottom: 30px;
-  font-family: 'Times New Roman', Times, serif;
+
+#heading {
+    margin-top: 140px;
+
+    max-width: 550px;
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
 }
-#des{
-    
+
+#des {
+
     max-width: 500px;
-    
+
     margin-bottom: 30px;
 }
-.symbols{
+
+.symbols {
     display: flex;
     font-size: 25px;
     justify-content: space-between;
@@ -120,89 +118,437 @@ nav ul li{
     margin-bottom: 30px;
 
 }
-.symbols div{
+
+.symbols div {
     display: flex;
 }
 
-.symbols p{
+.symbols p {
     font-size: 15px;
     padding-left: 10px;
     padding-top: 5px;
 }
-.right button{
- background-color: rgb(201, 135, 29);
- color:white;
- padding: 10px 20px 10px 20px;
- border: none;
- border-radius: 5px;
- margin-left: 20px;
+
+.Booking {
+    background-color: rgb(201, 135, 29);
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
 }
-.night{
+
+.night {
     display: flex;
-    
+
 }
-#price{
+
+.night .price {
     font-size: 45px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 
-    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     margin-top: 15px;
-     color:black
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',
+        'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 15px;
+    color: black
 }
-.night p{
+
+.night p {
     margin-top: 45px;
     font-size: 10px;
     color: rgb(158, 154, 154);
 }
-.secondpage{
+
+#secondpage {
     display: flex;
     margin-top: 100px;
     height: 550px;
 }
-.secondpage h2{
+
+/* .secondpage .right{
+    background-image: url(img\Room2.jpg);
+} */
+#secondpage h2 {
     max-width: 600px;
     font-size: 35px;
-    padding : 90px 50px 30px 90px;
+    padding: 90px 50px 30px 90px;
     font-family: 'Times New Roman', Times, serif;
 }
-.secondpage p{
+
+#secondpage p {
     padding-left: 90px;
-   padding-bottom: 90px;
+    padding-bottom: 90px;
     max-width: 600px;
-    
+
 }
-.thirdpage {
+
+#thirdpage {
 
     margin-top: 100px;
     margin-left: 50px;
-    height:450px;
+    height: 450px;
 }
-.Heading2{
+
+.Heading2 {
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 25px;
 }
-.thirdpage p{
+
+#thirdpage p {
     max-width: 500px;
     color: dimgrey;
     margin-bottom: 60px;
 }
-#facility{
+
+#facility {
     display: flex;
     justify-content: space-between;
     max-width: 75%;
 }
 
 .faciltyGroup div {
- display: flex;
- font-size: 20px;
- height: 50px;
- 
+    display: flex;
+    font-size: 20px;
+    height: 50px;
+
 }
-.faciltyGroup div p{
+
+.faciltyGroup div p {
     padding-left: 20px;
-  
+
+
+}
+
+.faciltyGroup div i {
+    padding-top: 5px;
+}
+
+#firstpage .right {
+
+    background-image: url('img\F-0cCM_bEAADC6_.png');
+    background-size: cover;
+}
+
+#fourthpage {
+
+    padding-left: 50px;
+}
+
+#fourthpage div {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-right: 10px;
+    height: 300px;
+    margin-top: 15px;
+
+}
+
+#fourthpage #header {
+    max-height: 50px;
+    justify-content: space-between;
+    display: flex;
+    max-width: 1000px;
+}
+
+#fourthpage button {
+
+    font-size: 25px;
+    padding: 10px 15px 10px 15px;
+    max-height: 45px;
+    margin-left: 20px;
+}
+
+.onclick {
+
+    border: 2px solid rgb(201, 135, 29);
+    color: rgb(201, 135, 29);
+    border-radius: 5px;
+    background-color: white;
+}
+
+#gallery {
+    /* background-color: darkgray; */
+    height: 300px;
+    max-width: 600px;
+    display: flex;
+    margin-bottom: 100px;
+
+}
+
+#gallery span img {
+    height: 300px;
+    width: 600px;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+
+#sixthpage {
+    height: 500px;
+    padding-left: 50px;
+
+}
+
+#sixthpage p {
+    max-width: 400px;
+}
+
+#sixthpage .check {
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+#sixthpage #sixthcontent {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding-right: 60px;
+
+}
+
+#sixthpage #sixthcontent p {
+    max-width: 400px;
+}
+
+.accordion {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    color: #aca9a9;
+    cursor: pointer;
+    padding: 10px;
+    width: 550px;
+    text-align: left;
+    border: 1.5px solid #cecbcb;
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.dropdown {
+    font-size: 20px;
+}
+
+#seventhpage {
+    padding-left: 50px;
+    height: 600px;
+    margin-bottom: 150px;
+}
+
+#seventhpage p {
+    max-width: 500px;
+
+}
+
+#box1 {
+    background-color: white;
+    width: 630px;
+    border: 1px solid #aca9a9;
+    border-radius: 5px;
+    padding: 20px;
+    height: 450px;
+}
+
+#box2 {
+    background-color: white;
+    width: 450px;
+    border: 1px solid #aca9a9;
+    border-radius: 5px;
+    padding: 20px;
+    height: 450px;
+}
+
+#date {
+    display: flex;
+
+}
+
+#date #select {
+    color: #aca9a9;
+    padding-bottom: 20px;
+}
+
+#availability {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 1100px;
+}
+
+#availability h3 {
+    padding-bottom: 20px;
+}
+
+form {
+    margin-top: 25px;
+}
+
+#box2 .roomleft {
+    padding-bottom: 30px;
+}
+
+#box2 .Booking {
+    width: 100%;
+    margin-left: 0px;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 8px;
+}
+
+#box2 h4 {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 250px;
+}
+
+#box2 .start {
+    font-size: 15px;
+}
+
+#box2 #roomNo {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(201, 135, 29);
+}
+
+#box2 .price {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+#box2 #Night {
+    margin-top: 20px;
+
+}
+
+#eighthpage {
+    margin-left: 50px;
+    max-width: 1100px;
+
+}
+
+.box3 {
+    background-color: white;
+    width: 350px;
+    border: 1px solid #aca9a9;
+    border-radius: 5px;
+    height: 480px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.box3 .image img{
+    /* background-image: url('Room1.jpeg'); */
+    width: 100%;
+    height: 230px;
+    /* background-color: #aca9a9; */
+}
+
+.box3 .details {
+    padding: 20px 10px 20px 10px;
+}
+
+#SimilarRooms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3 .symbols {
+    font-size: 28px;
+    padding-top: 15px;
+}
+
+.box3 .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.box3 .start {
+    font-size: 15px;
+}
+
+.box3 .price {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.box3 #Night {
+    margin-top: 20px;
+
+}
+
+.box3 .Booking {
+    width: 130px;
+    height: 50px;
+}
+#Footer{
+ display: flex;
+ height: 500px;
+ padding-left: 10px;
+}
+#one{
+    width: 45%;
+    background-color:rgb(41, 56, 71);
+    color: white;
+    padding: 70px 0px 50px 70px;
+}
+#one h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+#one p{
+    width: 400px;
+    padding-bottom: 50px;
+}
+#one input{
+   padding: 15px;
+   border-radius: 8px;
+   width: 300px;
    
 }
-.faciltyGroup div i{
-    padding-top:5px;
+#one .Booking{
+    height: 48px;
+    margin-left: 8px;
+}
+#one div{
+    width: 500px;
+    display: flex;
+    margin-bottom: 100px;
+}
+#two{
+    width:55%;
+    background-color: rgb(16, 31, 47);
+    color: white;
+    padding-left: 80px;
+    padding-top: 40px;
+}
+#two p{
+    padding-top: 30px;
+    padding-bottom: 50px;
+    width: 500px;
+}
+#two a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    padding-bottom: 15px;
+}
+#two #links div {
+    /* justify-content: space-between; */
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+#two #links {
+   display: flex;
+   align-items: start;
+   justify-content: space-between;
+   width: 450px;
+
 }
